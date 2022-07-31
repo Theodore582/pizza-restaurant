@@ -1,0 +1,43 @@
+.Home{
+    background-image: url(../../images/wood-2045380_1920\ 1.png);
+    height: 944px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+   
+    
+}
+.home-text{
+    text-align: center;
+    color: white;
+     width: 700px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    z-index: 999;
+    
+    
+}
+
+.home-text h2{
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color:#F2C94C;
+    font-family:Quattrocento serif;
+}
+.home-text p{
+   font-size: 30px;
+   font-family:Ruda sans-serif;
+   line-height: 40px;
+}
+
+.home-img{
+    position: absolute;
+    top: 53%;
+    left: 5%;
+   
+
+}
+
+
