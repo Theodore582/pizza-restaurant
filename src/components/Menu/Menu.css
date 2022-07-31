@@ -1,0 +1,42 @@
+.Menu {
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 0px 150px 150px 150px;
+}
+
+.Menu h2 {
+  font-family: Quattrocento serif;
+  font-size: 60px;
+  text-decoration: underline;
+  text-decoration-color: #f2c94c;
+}
+
+.Menu p {
+  font-family: Ruda sans-serif;
+  line-height: 35px;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+.menu-images {
+  display: flex;
+  gap: 5rem;
+}
+
+.menu-button {
+  margin-top: 80px;
+  color: #f2c94c;
+  width: 129px;
+  height: 54px;
+  background-color: black;
+  border: 1px solid #f2c94c;
+  font-size: 15px;
+}
+
+.menu-button:hover {
+  width: 132px;
+  font-size: 17px;
+  background-image: linear-gradient(#f2c94c, black, #f2c94c);
+  transition: 1s;
+}
