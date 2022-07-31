@@ -1,0 +1,37 @@
+.Findus {
+    padding: 0px 150px 150px 150px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.Findus h2{
+    font-family:Quattrocento serif;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #F2C94C;
+    text-align: center;
+}
+
+.findus-section {
+    display: flex;
+    gap: 9rem;
+    justify-content: space-between;
+}
+
+.findus-text{
+    width: 600px;
+    height: 419px;
+}
+.findus-text p{
+    font-family: Ruda sans-serif;
+    line-height: 35px;
+    font-size: 25px;
+    width: 500px;
+    height: 419px;
+}
+
+.findus-text h5{
+    margin-bottom: 2px;
+}
+
