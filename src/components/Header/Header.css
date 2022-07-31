@@ -1,0 +1,37 @@
+.Header{
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header h2{
+    color: white;
+    margin-left: 30px;
+    font-family: Ruda sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+   
+    
+}
+
+
+.Header ul{
+    display: flex;
+    gap:4rem;
+    margin-right: 30px;
+   list-style: none;
+   font-family: Ruda sans-serif;
+   font-size: 20px;
+ 
+}
+
+.Header ul li a{
+    color: white;
+   text-decoration: none;
+}
+
+.Header ul li a:hover{
+    text-decoration: line-through;
+    color: burlywood;
+}
