@@ -1,0 +1,45 @@
+.About{
+    display: flex;
+    padding:150px;
+    justify-content: space-between;
+}
+
+.about-us{
+    color: white;
+    font-size: 25px;
+    width: 420px;
+    letter-spacing: 2px;
+}
+
+.about-us h2{
+    font-family:Quattrocento serif;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #F2C94C;
+   
+}
+
+.about-us p{
+    font-family: Ruda sans-serif;
+    line-height: 35px;
+}
+
+
+.about-button{
+    margin-top: 50px;
+     color: #F2C94C;
+    width: 129px;
+    height: 54px;
+    background-color:black;
+    border: 1px solid #F2C94C;
+    font-size: 15px;
+    
+}
+
+.about-button:hover{
+    width: 132px;
+    font-size: 17px;
+    background-image: linear-gradient(#F2C94C,black,#F2C94C);
+    transition:1s;
+
+}
