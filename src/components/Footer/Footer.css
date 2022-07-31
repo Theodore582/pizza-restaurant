@@ -1,0 +1,42 @@
+.footer {
+  background-image: url(../../images/wood-2045380_1920\ 1.png);
+  height: 1024px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer img {
+  transform: rotate(180deg);
+  margin: auto;
+}
+
+.footer h2 {
+  text-decoration: underline;
+  text-decoration-color: #f2c94c;
+  font-size: 60px;
+  color: white;
+  font-family: Quattrocento serif;
+}
+
+.footer-icons {
+  display: flex;
+  font-size: 60px;
+  justify-content: space-between;
+  width: 300px;
+  margin: auto;
+  color: white;
+}
+
+.icon{
+display: flex;
+justify-content: center;
+align-items: center;
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ background-color: black;
+}
+
