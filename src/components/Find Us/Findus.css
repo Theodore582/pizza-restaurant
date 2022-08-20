@@ -35,3 +35,36 @@
     margin-bottom: 2px;
 }
 
+@media screen and (max-width:640px) {
+    .Findus{
+        width:100vw;
+        display: block;
+        padding: 70px 0px 0px 0px;
+    }
+    
+    .Findus h2{
+        font-size: 50px;
+        text-align: center;
+       
+    }
+
+    .findus-section{
+        width: 100vw;
+        display:block;
+    }
+
+    .findus-img img{
+        width: 95vw;
+        display: block;
+        margin: auto;
+    }
+
+    .findus-text p{
+        width: 100vw;
+        font-size: 20px;
+        overflow-y: hidden;
+        padding: 10px;
+        
+    }
+    
+}
