@@ -1,6 +1,7 @@
 .Header{
     height: 70px;
     display:flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -34,4 +35,29 @@
 .Header ul li a:hover{
     text-decoration: line-through;
     color: burlywood;
+}
+
+@media screen and (max-width:640px) {
+    *{
+        overflow-x: hidden;
+    }
+   
+    .Header{
+        width:100vw;
+    }
+   .Header h2{
+    font-size: 10px;
+    }
+
+    .Header ul{
+        display: block;
+        font-size: 10px;
+        
+    }
+
+    .Header ul li{
+        padding-bottom:5px;
+    }
+
+
 }
