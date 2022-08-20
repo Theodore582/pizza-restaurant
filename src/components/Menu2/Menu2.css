@@ -63,6 +63,49 @@ font-weight: 400;
    font-size: 20px;
 }
 
-.menu-paragraph{
-    display:column;
+
+
+@media screen and (max-width:640px) {
+    .menu2 h2{
+        font-size: 50px;
+    }
+    .menu2 ul{
+       display: block;
+    }
+    .menu2 ul li{
+        margin-bottom:10px;
+    }
+
+    .menu2-imgs{
+        display: block;
+        padding: 10px;
+        
+     }
+
+     .menu2-img{
+        padding: 0;
+        margin-top:20px;
+        width: 100vw;
+        }
+
+    .menu2-img img{
+        width: 40vw;
+        height: 15vh;
+    }
+
+    .menu2-text{
+        padding:4px;
+    }
+
+    .menu2-text h5{
+        font-size: 20px;
+        
+    }
+
+
+    .menu2-text p{
+        font-size: 10px;
+        width: 55vw;
+        line-height: 30px;
+    }
 }
