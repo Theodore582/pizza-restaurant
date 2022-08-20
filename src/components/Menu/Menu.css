@@ -40,3 +40,31 @@
   background-image: linear-gradient(#f2c94c, black, #f2c94c);
   transition: 1s;
 }
+
+@media screen and (max-width:640px){
+  .Menu{
+    width: 100vw;
+    padding: 70px 0px 70px 0px;
+    }
+
+  .Menu h2{
+    font-size: 50px;
+
+  }
+
+  .Menu p{
+    font-size: 20px;
+  }
+  .menu-images{
+    display: block;
+    
+  }
+
+  .menu-images img{
+    width: 95vw;
+    margin-bottom: 40px;
+  }
+
+  
+
+}
