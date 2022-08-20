@@ -9,6 +9,7 @@
 
 body{
   background-color: black;
+  overflow-x:hidden9;
 }
 
 /*Custom scrollbar*/
