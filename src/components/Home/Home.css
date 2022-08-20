@@ -1,7 +1,7 @@
 .Home{
     background-image: url(../../images/wood-2045380_1920\ 1.png);
     height: 944px;
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
    position: relative;
@@ -15,9 +15,6 @@
     position: absolute;
     top: 15%;
     left: 25%;
-    z-index: 999;
-    
-    
 }
 
 .home-text h2{
@@ -41,3 +38,27 @@
 }
 
 
+@media screen and (max-width:640px) {
+    .Home{
+        height: 944px;
+        width: 100vw;
+    }
+    .home-img img {
+        width: 600px;
+        position: absolute;
+        top:260px;
+        left:-110px;
+        }
+
+
+    
+    .home-text{
+        text-align: center;
+        width: 250px;
+
+     }
+     .home-text h2{
+        font-size: 35px;
+        
+     }
+}
